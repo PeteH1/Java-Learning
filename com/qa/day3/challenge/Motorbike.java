@@ -15,6 +15,12 @@ public class Motorbike extends Vehicle{
 				+ ", size=" + size + ", speed=" + speed + "]";
 	}
 	
+//	This method has to be here because it's an abstract method in Vehicle
+	@Override
+	public void drive() {
+		System.out.println("I'M DRIVING MY MOTORBIKE");
+	}
+	
 	
 
 }

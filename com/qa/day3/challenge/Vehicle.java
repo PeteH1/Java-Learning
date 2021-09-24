@@ -1,6 +1,6 @@
 package com.qa.day3.challenge;
 
-public class Vehicle {
+public abstract class Vehicle {
 	
 	int numOfWheels;
 	int numOfDoors;
@@ -14,6 +14,10 @@ public class Vehicle {
 		this.size = size;
 		this.speed = speed;
 	}
+	
+//	Abstract method means that "drive" method has to be
+//	implemented in child classes
+	public abstract void drive();
 
 	public int getNumOfWheels() {
 		return numOfWheels;
