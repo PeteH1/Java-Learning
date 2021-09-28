@@ -32,6 +32,15 @@ public class Garage {
 //			}
 //		}
 //	}
+	
+//	Normal for loop of above method
+	public void removeVehicleOfType(String type) {
+		for (int i = 0; i < garageList.size(); i++) {
+			if (garageList.get(i).getClass().getSimpleName().equals(type)) {
+				garageList.remove(i);
+			}
+		}
+	}
 
 	@Override
 	public String toString() {
