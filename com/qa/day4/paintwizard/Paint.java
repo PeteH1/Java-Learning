@@ -36,6 +36,7 @@ public class Paint {
 		return waste;
 	}
 
+//	Getters & Setters
 	public String getName() {
 		return name;
 	}
@@ -70,8 +71,10 @@ public class Paint {
 
 	@Override
 	public String toString() {
-		return "Paint [litreSize=" + litreSize + ", price=" + price + ", coverage=" + coverage + "]";
-	}			
+		return "Paint [name=" + name + ", litreSize=" + litreSize + ", price=" + price + ", coverage=" + coverage + "]";
+	}
+
+			
 	
 	
 
